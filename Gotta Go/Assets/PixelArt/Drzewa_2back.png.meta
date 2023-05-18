@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 90532349f70cd214aa3511cd203178de
+guid: c432bbb71c82baa4eb978347463c3a26
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,29 +101,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: kotek_v2_0
+      name: Drzewa_2back_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 97
-        height: 59
+        x: 66
+        y: 190
+        width: 79
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99d78f94a85660748b0722a9d74c4ff2
-      internalID: -1638400638
+      spriteID: c6a345c5f3af725459ef5cfef0fc1ecd
+      internalID: -738635835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kotek_v2_1
+      name: Drzewa_2back_1
       rect:
         serializedVersion: 2
-        x: 102
-        y: 0
-        width: 97
-        height: 57
+        x: 183
+        y: 190
+        width: 132
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +140,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41918d1844f70c642a04820536aa5dda
-      internalID: -1014672871
+      spriteID: 56b27bda65610fd4aac4021814eb9c87
+      internalID: -2018515988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drzewa_2back_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 30
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d8441dd3f5cce4fa164d2478cd722e
+      internalID: -773515135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drzewa_2back_3
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 30
+        width: 66
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb6c201d49253e469450d17caff7587
+      internalID: -525163401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drzewa_2back_4
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 30
+        width: 112
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63de88789f8a41849b12d43cb63916f0
+      internalID: -1544502959
       vertices: []
       indices: 
       edges: []
@@ -169,8 +220,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      kotek_v2_0: -1638400638
-      kotek_v2_1: -1014672871
+      Drzewa_2back_2: -773515135
+      Drzewa_2back_3: -525163401
+      Drzewa_2back_1: -2018515988
+      Drzewa_2back_0: -738635835
+      Drzewa_2back_4: -1544502959
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

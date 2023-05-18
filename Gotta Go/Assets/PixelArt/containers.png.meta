@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 90532349f70cd214aa3511cd203178de
+guid: 3b87e18a849a81746a5c43b536922e3b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,29 +101,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: kotek_v2_0
+      name: containers_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 97
-        height: 59
+        x: 6
+        y: 78
+        width: 19
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99d78f94a85660748b0722a9d74c4ff2
-      internalID: -1638400638
+      spriteID: aa22169e7ee0e394d9e8620446cfb6ed
+      internalID: -989811320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kotek_v2_1
+      name: containers_1
       rect:
         serializedVersion: 2
-        x: 102
-        y: 0
-        width: 97
-        height: 57
+        x: 30
+        y: 68
+        width: 27
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +140,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41918d1844f70c642a04820536aa5dda
-      internalID: -1014672871
+      spriteID: f202d2915c51a034884286281679c454
+      internalID: 249626191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: containers_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 81
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa27ea0254a319a439e94c61c09f14f0
+      internalID: -1047695915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: containers_3
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 36
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e625ca01472b1048a5d7d8a58074912
+      internalID: 1587699073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: containers_4
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 35
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7513959472ec774419c23f22324c06ea
+      internalID: -242846006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: containers_5
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 40
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48401bd3e6981854c97eaa455c9200f2
+      internalID: 809391603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: containers_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 10
+        width: 72
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48436f12a5212f469ce2f9e0cb2e42f
+      internalID: 1427821808
       vertices: []
       indices: 
       edges: []
@@ -169,8 +262,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      kotek_v2_0: -1638400638
-      kotek_v2_1: -1014672871
+      containers_0: -989811320
+      containers_6: 1427821808
+      containers_4: -242846006
+      containers_3: 1587699073
+      containers_1: 249626191
+      containers_5: 809391603
+      containers_2: -1047695915
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
