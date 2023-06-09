@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class CombatTrigger : MonoBehaviour
 {
     // Update is called once per frame
-    void Trigger(Collision2D Collider)
+    void OnCollisionEnter2D(Collision2D Collider)
     {
         if (Collider.gameObject.name == "Player")
         {
