@@ -5,16 +5,19 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     Rigidbody2D body;
+    private SpriteRenderer spriteRenderer;
 
     float horizontal;
     float vertical;
     float moveLimiter = 0.7f;
 
     public float runSpeed = 20.0f;
+    
 
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -31,6 +34,15 @@ public class PlayerMovement : MonoBehaviour
             // limit movement speed diagonally, so you move at 70% speed
             horizontal *= moveLimiter;
             vertical *= moveLimiter;
+        }
+
+        if(horizontal == -1)
+        {
+            spriteRenderer.flipX = true;
+        }
+        if(horizontal == 1)
+        {
+            spriteRenderer.flipX = false;
         }
 
         body.velocity = new Vector2(horizontal * runSpeed, vertical * runSpeed);
