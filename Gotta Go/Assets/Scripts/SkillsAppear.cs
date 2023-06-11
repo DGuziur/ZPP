@@ -6,19 +6,10 @@ public class SkillsAppear : MonoBehaviour
 {
     [SerializeReference] GameObject Skills;
     bool lol = false;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    private void OnMouseDown()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            lol = !lol;
-            Skills.SetActive(lol);
-        }
+        lol = !lol;
+        Skills.SetActive(lol);
     }
 }
