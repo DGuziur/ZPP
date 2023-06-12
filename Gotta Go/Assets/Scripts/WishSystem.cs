@@ -5,11 +5,16 @@ using UnityEngine;
 public class WishSystem : MonoBehaviour
 {
     [SerializeReference] GameObject Placeholder;
-    private Animation anim;
+    private Animator anim;
 
     void Start()
     {
-        anim = Placeholder.GetComponent<Animation>();
+        anim = Placeholder.GetComponent<Animator>();
+    }
+
+    private void OnMouseDown()
+    {
+        Placeholder.SetActive(false);
     }
 
     public void MakeAWish()
@@ -19,17 +24,17 @@ public class WishSystem : MonoBehaviour
         if (r <= 2)
         {
             Placeholder.SetActive(true);
-            Debug.Log("Gold");
+            anim.SetTrigger("Gold");
         }
         if (r <= 10 && r > 2)
         {
             Placeholder.SetActive(true);
-            Debug.Log("Purple");
+            anim.SetTrigger("Purple");
         }
         if (r > 10)
         {
             Placeholder.SetActive(true);
-            Debug.Log("Blue");
+            anim.SetTrigger("Blue");
         }
     }
 }
